@@ -32,8 +32,9 @@ python keylogger.py
 * timestamp: When the keystrokes were logged.
 * data: The captured keystrokes.
 * Stopping the Keylogger: The keylogger listens continuously until the 'Esc' key is pressed, which safely terminates the script.
-* 
+  
 ![alt text](https://i.ibb.co/Hd4pSC7/Screenshot-4.png)
+![alt text](https://i.ibb.co/HNGmKwm/Screenshot-3.png)
 
 ##Future Enhancements:
 * Add encryption to the stored data for better security.
