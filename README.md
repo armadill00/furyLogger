@@ -13,19 +13,19 @@ This Python script is a basic keylogger that captures keystrokes and logs the da
 * pynput library for keylogging
 * firebase-admin SDK for Firebase integration
 
-##Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/your-repo/firebase-keylogger.git
 cd firebase-keylogger
 
-##Install the required libraries:
+## Install the required libraries:
 
 pip install pynput firebase-admin
 Download your Firebase Admin SDK JSON key from the Firebase Console and replace the placeholder file path with the correct one in the script.
 
-##Run the script:
+## Run the script:
 python keylogger.py
-##How It Works:
+## How It Works:
 * Firebase Initialization: The Firebase connection is initialized using the service account key (firebase-adminsdk.json), allowing the script to interact with Firestore.
 * Keystroke Capture: The script listens for key presses using pynput.keyboard. It captures all keystrokes, including special characters, and appends them to a list.
 * Firebase Logging: Once the keylogger captures 10 keystrokes, it logs them to the Firestore database under a collection called keystrokes. Each entry includes:
