@@ -6,7 +6,7 @@ This Python script is a basic keylogger that captures keystrokes and logs the da
 * Real-time Logging: The keylogger continuously monitors keyboard input and sends the data to Firebase as soon as the batch size is reached.
 * Cross-platform: Works on Windows, macOS, and Linux systems.
   
-##Requirements:
+## Requirements:
 * Python 3.x
 * Firebase project with Firestore database
 * Firebase Admin SDK credentials (JSON file)
