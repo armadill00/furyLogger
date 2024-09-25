@@ -36,7 +36,7 @@ python keylogger.py
 ![alt text](https://i.ibb.co/Hd4pSC7/Screenshot-4.png)
 ![alt text](https://i.ibb.co/HNGmKwm/Screenshot-3.png)
 
-##Future Enhancements:
+## Future Enhancements:
 * Add encryption to the stored data for better security.
 * Implement multi-threading to make the keylogging more efficient.
 * Add email notifications or real-time monitoring capabilities via a dashboard.
